@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Shortener</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  </head>
+  <body>
+    <h1>
+      This Microservice allows you to
+    </h1>
+    <h2>
+      Input a url and get a shortened url that will redirect you to the original page
+    </h2>
+    <h3>
+      Example
+    </h3>
+    <h4 class="json">
+      https://nickel-trombone.glitch.me/api/?website=https://www.google.com
+    </h4>
+    <h4>
+      will return
+    </h4>
+    <h4 class="json">   
+{
+      </h4>
+    <h4 class="json">  
+link: https://www.google.com,
+      </h4>
+    <h4 class="json">  
+short: https://nickel-trombone.glitch.me/api/?website=https://hi.com/8365
+      </h4>
+    <h4 class="json">  
+}
+      </h4>
+    <h4>
+      now if you go to
+    </h4>
+    <h4 class="json">
+      https://nickel-trombone.glitch.me/api/?website=https://hi.com/8365
+    </h4>
+    <h4>
+      You will be redirected to <p class="json">
+        https://www.google.com
+      </p>
+    </h4>
+  </body>
+  <style>
+    body{
+      background-color:#ddd;
+      font-family:Lobster;
+    }
+    h2{
+      margin-top:-15px;
+      font-family:Lobster;
+    }
+    h1{
+      margin-bottom:30px;
+      font-family:Lobster;
+    }
+    .notLobster{
+      font-family:sans-serif,Arial;
+    }
+  .json{
+    font-family:sans-serif,Arial;
+    margin-bottom:-20px;
+    }</style>
+</html>
